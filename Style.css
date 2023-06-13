@@ -10,7 +10,6 @@
 body{
     height: 100vh; 
     width: 100vw;
-    overflow: hidden;
     background: linear-gradient(#ffc93c, #ff9a3c) no-repeat;
 }
 
@@ -30,7 +29,7 @@ input{
     padding: 18px;
     background-color: #155263;
     margin: 25vh auto;
-    width: 800px;
+    max-width: 800px;
 }
 
 #bttCalc{
@@ -50,4 +49,9 @@ input{
 
 .texto{
     padding: 18px;
+}
+
+#result{
+    color: #fff;
+    margin-top: 20px;
 }
