@@ -28,8 +28,9 @@ input{
     border-color: #ff6f3c;
     padding: 18px;
     background-color: #155263;
-    margin: 25vh auto;
+    margin: 4vh auto;
     max-width: 800px;
+    border-radius: 10px;
 }
 
 #bttCalc{
@@ -37,14 +38,14 @@ input{
     padding: 5px;
 }
 
+#epsilon{
+    margin: 10px;
+}
+
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.button{
-    margin-top: 10px;
 }
 
 .texto{
